@@ -24,7 +24,6 @@ public class RegEx {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a valid phone");
         String number = in.nextLine();
-        //in.close();
         if(!number.equals("")){
         Matcher phoneN = phone.matcher(number);
         
